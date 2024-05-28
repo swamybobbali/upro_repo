@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+{% extends 'testapp/base.html' %}
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body class="container-fluid" >
+{% block body_block%}
+<div class="bg-light">
+<h1 class="mt-4">Where Quality & Clarity Movies</h1><br><br>
+<p class="w-50">Watch iBOMMA.ONE Telugu movies online in HD quality.
+Exclusively designed for smartphones, tablets, PC's.</p><br><br>
+<p></p>
+</div>
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="/toly">
+	<img src="{%static 'images/b2.jpg'%}" width="210" height="300" class="d-inline-block align-top ms-4" alt="">&nbsp;&nbsp;&nbsp;
+    <img src="{%static 'images/b3.jpeg'%}" width="210" height="300" class="d-inline-block align-top" alt="">&nbsp;&nbsp;&nbsp;
+    <img src="{%static 'images/b4.jpeg'%}" width="210" height="300" class="d-inline-block align-top" alt="">&nbsp;&nbsp;&nbsp;
+    <img src="{%static 'images/b5.jpeg'%}" width="210" height="300" class="d-inline-block align-top" alt="">&nbsp;&nbsp;&nbsp;
+      <img src="{%static 'images/b6.jpeg'%}" width="210" height="300" class="d-inline-block align-top" alt="">&nbsp;&nbsp;&nbsp;
+  </a>
+</nav>
+<nav class="navbar navbar-light bg-light row">
+  <a class="navbar-brand column" href="https://www.youtube.com/watch?v=bC36d8e3bb0&pp=ygUFa2Fsa2k%3D">
+      <img src="{%static 'images/b7.jpeg'%}" width="210" height="300" class="d-inline-block align-top ms-4" alt="">&nbsp;&nbsp;&nbsp;
+    <img src="{%static 'images/b8.jpeg'%}" width="210" height="300" class="d-inline-block align-top" alt="">&nbsp;&nbsp;&nbsp;
+    <img src="{%static 'images/b1.jpg'%}" width="210" height="300" class="d-inline-block align-top" alt="">&nbsp;&nbsp;&nbsp;
+    <img src="{%static 'images/b10.jpg'%}" width="210" height="300" class="d-inline-block align-top" alt="">&nbsp;&nbsp;&nbsp;
+      <img src="{%static 'images/b11.jpg'%}" width="210" height="300" class="d-inline-block align-top" alt="">&nbsp;&nbsp;&nbsp;
+  </a>
+</nav><br>
+<div class="bg-light">
+<h1 class="bg-light">Locking For More Movies ? Our Search box</h1><br>
+    <p class="bg-light">Thousend of Movies our database & Still adding</p>
+<form class="d-flex" id="test">
+      <input class="form-control mr-2 w-25 form-control rounded-2" type="search" placeholder="Search" aria-label="Search">&nbsp;&nbsp;
+  <button class="btn btn-outline-warning radius-4" type="submit">Search</button></form><br><br>
+    <h4 class="bi bi-wifi bg-light w-25 color-warning">Add-ons(O)</h4><br></div>
+<nav class="navbar navbar-light bg-light row">
+  <a class="navbar-brand column" href="https://www.youtube.com/watch?v=bC36d8e3bb0&pp=ygUFa2Fsa2k%3D">
+      <img src="{%static 'images/b12.jpg'%}" width="210" height="300" class="d-inline-block align-top ms-4" alt="">&nbsp;&nbsp;&nbsp;
+    <img src="{%static 'images/b13.jpg'%}" width="210" height="300" class="d-inline-block align-top" alt="">&nbsp;&nbsp;&nbsp;
+    <img src="{%static 'images/t6.jpg'%}" width="210" height="300" class="d-inline-block align-top" alt="">&nbsp;&nbsp;&nbsp;
+    <img src="{%static 'images/k.jpg'%}" width="210" height="300" class="d-inline-block align-top" alt="">&nbsp;&nbsp;&nbsp;
+      <img src="{%static 'images/t1.jpeg'%}" width="210" height="300" class="d-inline-block align-top" alt="">&nbsp;&nbsp;&nbsp;
+  </a>
+</nav>
+{%endblock%}
+</body>
+</html>

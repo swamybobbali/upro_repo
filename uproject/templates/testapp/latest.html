@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+{% extends 'testapp/base.html' %}
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body class="container-fluid">
+{% block body_block%}
+<br>
+<h1>Welcome Mana Cinema</h1>
+<h4 id="t">Please Login or Signup</h4>
+<div id="t">
+<a href="/accounts/login/" class="btn btn-success w-25">LOGIN</a> or <a href="/signup" class="btn btn-warning w-25">Register</a>
+</div>
+    <p>Enjoye Unlimited Movies Low Price</p><br><br>
+<h3 id="t"><u>Tollywood Upcoming Movies</u></h3><br>
+<div class="row" id="">
+  <div class="col-sm-2" id="t">
+          <a href="#" class=""><img src="{%static 'images/k.jpg'%}" width="240" height="260" class="d-inline-block align-top" alt=""></a>
+        <h6 class="card-title">K A L K I</h6>
+          <i>₹99</i>
+          <a href="#" class="btn btn-primary">Watch</a>
+	</div>&nbsp;&nbsp;&nbsp;
+    <div class="col-sm-2" id="t">
+          <a href="#" class=""><img src="{%static 'images/salaar.jpg'%}" width="240" height="260" class="d-inline-block align-top" alt=""></a>
+        <h6 class="card-title">S A L A A R 2</h6>
+          <i>₹99</i>
+          <a href="#" class="btn btn-primary">Watch</a>
+	</div>&nbsp;&nbsp;&nbsp;
+    <div class="col-sm-2" id="t">
+          <a href="#" class=""><img src="{%static 'images/t3.jpg'%}" width="240" height="260" class="d-inline-block align-top" alt=""></a>
+        <h6 class="card-title">P U S H P A 2</h6>
+          <i>₹99</i>
+          <a href="#" class="btn btn-primary">Watch</a>
+	</div>&nbsp;&nbsp;&nbsp;
+    <div class="col-sm-2" id="t">
+          <a href="#" class=""><img src="{%static 'images/t4.jpg'%}" width="240" height="260" class="d-inline-block align-top" alt=""></a>
+        <h6 class="card-title">N B K 109</h6>
+          <i>₹99</i>
+          <a href="#" class="btn btn-primary">Watch</a>
+	</div>&nbsp;&nbsp;&nbsp;
+</div>
+<br><br>
+<h3 id="t"><u>Bollywood Upcoming Movies</u></h3><br>
+<div class="row" id="">
+    <div class="col-sm-2" id="t">
+          <a href="#" class=""><img src="{%static 'images/b5.jpeg'%}" width="240" height="300" class="d-inline-block align-top" alt=""></a>
+        <h6 class="card-title">F O R C E</h6>
+          <i>₹99</i>
+          <a href="#" class="btn btn-primary">Watch</a>
+	</div>&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="col-sm-2" id="t">
+          <a href="#" class=""><img src="{%static 'images/b2.jpg'%}" width="240" height="300" class="d-inline-block align-top" alt=""></a>
+        <h6 class="card-title">F I G H T E R </h6>
+          <i>₹99</i>
+          <a href="#" class="btn btn-primary">Watch</a>
+	</div>&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="col-sm-2" id="t">
+          <a href="#" class=""><img src="{%static 'images/b4.jpeg'%}" width="240" height="300" class="d-inline-block align-top" alt=""></a>
+        <h6 class="card-title"> BHOOT POLICE</h6>
+          <i>₹99</i>
+          <a href="#" class="btn btn-primary">Watch</a>
+	</div>&nbsp;&nbsp;&nbsp&nbsp
+    <div class="col-sm-2" id="t">
+          <a href="#" class=""><img src="{%static 'images/b6.jpeg'%}" width="240" height="300" class="d-inline-block align-top" alt=""></a>
+        <h6 class="card-title">P H I L L O U R I </h6>
+          <i>₹99</i>
+          <a href="#" class="btn btn-primary">Watch</a>
+	</div>
+
+</div>
+<br><br>
+<h3 id="t"><u>ALL Upcoming Movies</u></h3><br>
+<div class="row" id="">
+  <div class="col-sm-2" id="t">
+          <a href="#" class=""><img src="{%static 'images/salaar.jpg'%}" width="240" height="300" class="d-inline-block align-top" alt=""></a>
+        <h6 class="card-title">S A L A A R 2</h6>
+          <i>₹99</i>
+          <a href="#" class="btn btn-primary">Watch</a>
+	</div>&nbsp&nbsp&nbsp&nbsp
+    <div class="col-sm-2" id="t">
+          <a href="#" class=""><img src="{%static 'images/t6.jpg'%}" width="240" height="300" class="d-inline-block align-top" alt=""></a>
+        <h6 class="card-title">MR B A T C H A N</h6>
+          <i>₹99</i>
+          <a href="#" class="btn btn-primary">Watch</a>
+	</div>&nbsp&nbsp&nbsp&nbsp
+    <div class="col-sm-2" id="t">
+          <a href="#" class=""><img src="{%static 'images/b2.jpg'%}" width="240" height="300" class="d-inline-block align-top" alt=""></a>
+        <h6 class="card-title">F I G H T E R</h6>
+          <i>₹99</i>
+          <a href="#" class="btn btn-primary">Watch</a>
+	</div>&nbsp&nbsp&nbsp&nbsp
+    <div class="col-sm-2" id="t">
+          <a href="#" class=""><img src="{%static 'images/k.jpg'%}" width="240" height="300" class="d-inline-block align-top" alt=""></a>
+        <h6 class="card-title">K A L K I</h6>
+          <i>₹99</i>
+          <a href="#" class="btn btn-primary">Watch</a>
+	</div>
+
+  </div>
+{%endblock%}
+</body>
+</html>>
